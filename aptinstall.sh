@@ -15,14 +15,13 @@ function install {
 
 # Basics
 install awscli
-install chromium-browser
 install curl
 install exfat-utils
 install file
 install git
-install htop
+#install htop
 install nmap
-install openvpn
+#install openvpn
 install tmux
 install vim
 

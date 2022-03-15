@@ -26,7 +26,7 @@ PATH="$DOTFILES_DIR/bin:$PATH"
 
 # Source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/.{functions,env,alias,bash_prompt}; do
+for DOTFILE in "$DOTFILES_DIR"/.{functions,env,alias,prompt}; do
   [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
 

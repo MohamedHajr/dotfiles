@@ -1,8 +1,5 @@
 #!/bin/bash
 
-git clone https://github.com/MohamedHajr/dotfiles.git
-cd dotfiles
-
 ./symlink.sh
 ./aptinstall.sh
 

@@ -1,9 +1,6 @@
 
 #!/bin/bash
 
-# Up from scripts dir
-cd ..
-
 dotfilesDir=$(pwd)
 
 function linkDotfile {
@@ -33,4 +30,4 @@ function linkDotfile {
 linkDotfile .vim
 linkDotfile .bash_profile
 linkDotfile .bashrc
-linkDotfile .tmux.conf
+#linkDotfile .tmux.conf

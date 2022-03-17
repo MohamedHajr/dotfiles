@@ -19,6 +19,8 @@ install curl
 install exfat-utils
 install file
 install git
+install nodejs
+install npm
 #install htop
 install nmap
 #install openvpn

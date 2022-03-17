@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo ${pwd})
+echo $(pwd)
 
 ./symlink.sh
 ./aptinstall.sh

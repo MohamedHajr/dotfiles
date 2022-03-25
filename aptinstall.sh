@@ -33,6 +33,11 @@ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 sudo apt-get update && sudo apt-get install terraform
 
+#Git Configuration
+git config --global core.editor /usr/bin/vim
+git config --global user.name "Mo Hajr"
+git config --global user.email "mo@hajr.io"
+
 # Fun stuff
 install figlet
 install lolcat

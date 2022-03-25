@@ -1,6 +1,12 @@
-*.swp
 .ssh
 id_rsa*
 *.pub
 .aws
 .bash_history
+
+#Vim
+*.swp
+
+## Temporary
+.netrwhist
+*~
